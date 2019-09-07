@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(207, 207, 207);
+  color: #000;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+.postlist {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding: 20px;
+  max-width: 700px;
+  background-color: aliceblue;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.avatar {
+  height: 48px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.headerComent {
+  margin: 5px;
+  display: flex;
+}
+.headerPost {
+  display: flex;
+  margin: 5px;
+}
+.headerPost span {
+  font-weight: bold;
+  color: rgb(39, 39, 39);
+}
+.data {
+  font-size: 12px;
+}
+.headerComment {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: rgb(207, 207, 207);
+  font-size: 14px;
+}
+.headerComment span {
+  padding: 5px;
+}
+
+.comment {
+  margin-top: 5px;
+  display: flex;
+}
